@@ -6,7 +6,7 @@ function Home() {
         <div className='container'>
             <div>
                 <h1>FRONT END <br />DEVELOPMENT</h1>
-                <Button />
+                <Button name='MORE' />
                 <h2>This is the Home Page</h2>
             </div>
         </div>

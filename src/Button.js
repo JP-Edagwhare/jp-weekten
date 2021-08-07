@@ -1,10 +1,9 @@
 import React from 'react';
 
-export default function Button() {
+export default function Button(props) {
     return (
     <button>
-        More 
-        <i class="fas fa-caret-right"></i>
+        {props.name} 
     </button>
     )
 }
